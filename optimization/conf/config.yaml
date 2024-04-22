@@ -1,0 +1,17 @@
+DATAPATH: 'optimization/data/'
+n_scenarios: 5
+distance_metric: 'energy'
+wl_constraint_type: 'robust'
+var_wl: -0.4
+cvar_wl: -0.2
+cvar_alpha: 0.9
+p_chance: 0.1
+tree_based: False
+n_dam_scenarios: 10
+n_idm_scenarios: 10
+n_q_scenarios: 10
+n_wl_scenarios: 10
+n_root_steps: 3
+max_threads: 128
+start_from_scratch: True
+h_max: -0.4

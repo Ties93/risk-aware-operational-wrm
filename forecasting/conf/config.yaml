@@ -1,0 +1,9 @@
+NAME: DAM
+EXPERIMENT:
+  DATAPATH: 'EGU23\data'
+  SAVEPATH: 'experiments' # Will be used to store resulte
+  EXPERIMENT_NAME: 'CQRDNN_WL_IJmuiden' # Will be used to store results in SAVEPATH/EXPERIMENT_NAME
+
+
+MODEL:
+  MODELNAME: 'MLP'
